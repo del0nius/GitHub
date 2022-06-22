@@ -125,6 +125,7 @@ Enter (Ctrl+D)
  7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
 ```
 vim new.xml (i)
+<?xml version ="1.0" encoding = "utf-8"?>
 <aboutme>
   <fullname>Daniil Pavlovich Gaponenko</fullname>
   <age>27</age>
@@ -138,6 +139,7 @@ vim new.xml (i)
  10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. 
 ```
 vim preferences.xml (i)
+<?xml version ="1.0" encoding = "utf-8"?>
 <preferences>
   <favmovie>Dead poets society</favmovie>
   <favseries>The Sopranos</favseries>
@@ -150,6 +152,7 @@ vim preferences.xml (i)
  11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 ```
 cat > skills.xml
+<?xml version ="1.0" encoding = "utf-8"?>
 <skills>
   <one>Basic theory</one>
   <two>Client-server architecture</two>
@@ -192,6 +195,7 @@ Enter (Ctrl+D)
  16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. 
 + open file "bug_report.xml" and click "edit this file"
 ```
+<?xml version ="1.0" encoding = "utf-8"?>
 <bugreport>
 <bugid>123</bugid>
 <bugname>Add_to_cart_01</bugname>
